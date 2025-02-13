@@ -38,11 +38,13 @@ curl -fsSL https://ollama.ai/install.sh | sh
 
 # 5️⃣ Pull LLaMA 3.2 Model  
 ollama pull llama3.2:latest
+```
 
 ---
 
 ## 📌 How to use
 
+```bash
 # 1️⃣ Start the PDF Q&A System  
 python pdf_qa.py
 
@@ -53,6 +55,7 @@ python pdf_qa.py
 # 3️⃣ Ask Questions About the PDF  
 # Type any natural language question (e.g., "What is this document about?").
 # The system will retrieve relevant content and ask LLaMA for an answer.
+```
 
 ---
 
