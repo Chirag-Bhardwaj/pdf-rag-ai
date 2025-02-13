@@ -61,7 +61,7 @@ python pdf_qa.py
 
 ## 🛠 Requirements
 
-# - Python 3.10+
-# - Ollama Installed (for LLaMA 3.2)
-# - FAISS or ChromaDB (for fast text retrieval)
+- Python 3.10+
+- Ollama Installed (for LLaMA 3.2)
+- FAISS or ChromaDB (for fast text retrieval)
 
