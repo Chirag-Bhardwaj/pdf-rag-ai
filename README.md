@@ -14,7 +14,7 @@
 
 ```bash
 # 1️⃣ Clone This Repository  
-git clone https://github.com/YOUR_GITHUB_USERNAME/pdf-rag.git
+git clone https://github.com/chirag-bhardwaj.github.io/pdf-rag.git
 cd pdf-rag
 
 # 2️⃣ Create a Virtual Environment  
