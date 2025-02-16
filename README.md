@@ -15,7 +15,7 @@
 ### 1️⃣ Clone This Repository  
 ```bash
 git clone https://github.com/chirag-bhardwaj/pdf-rag-ai.git
-cd pdf-rag
+cd pdf-rag-ai
 ```
 
 ### 2️⃣ Set Up the Backend  
