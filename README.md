@@ -1,7 +1,7 @@
-# 📜 AI-Powered PDF Q&A System  
+# AI-Powered PDF Q&A System  
 > **Ask AI questions about any PDF using RAG (Retrieval-Augmented Generation)**  
 
-## 🚀 Features  
+## Features  
 ✅ **Extracts and indexes PDF text**  
 ✅ **Retrieves relevant chunks from stored PDFs**  
 ✅ **Uses LLaMA 3.2 (via Ollama) for answering questions**  
