@@ -6,7 +6,7 @@
 ✅ **Retrieves relevant chunks from stored PDFs**  
 ✅ **Uses LLaMA 3.2 (via Ollama) for answering questions**  
 ✅ **Fully local – No API keys, No cloud required**  
-✅ **Simple CLI interface for now (Future Web UI planned)**  
+✅ **Simple Web UI using Vite (Frontend) + FastAPI (Backend)**  
 
 ---
 
@@ -18,58 +18,56 @@ git clone https://github.com/chirag-bhardwaj/pdf-rag.git
 cd pdf-rag
 ```
 
-### 2️⃣ Create a Virtual Environment  
-#### For macOS/Linux  
+### 2️⃣ Set Up the Backend  
+#### Navigate to the Backend Directory  
 ```bash
-python -m venv venv
-source venv/bin/activate
-```
-#### For Windows  
-```bash
-python -m venv venv
-venv\Scripts\activate
+cd backend
 ```
 
-### 3️⃣ Install Dependencies  
+#### Install Backend Dependencies  
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Install Ollama (for LLaMA 3.2 model)  
-#### For macOS  
+#### Start the Backend  
 ```bash
-brew install ollama
-```
-#### For Linux  
-```bash
-curl -fsSL https://ollama.ai/install.sh | sh
-```
-
-### 5️⃣ Pull LLaMA 3.2 Model  
-```bash
-ollama pull llama3.2:latest
+python main.py
 ```
 
 ---
 
-## 📌 How to use  
-
-### 1️⃣ Start the PDF Q&A System  
+### 3️⃣ Set Up the Frontend  
+#### Navigate to the Frontend Directory  
 ```bash
-python pdf_qa.py
+cd ../frontend
 ```
 
-### 2️⃣ Upload a PDF  
-- When prompted, **enter the path** to your PDF.  
-- The system will **extract and index** the text from the PDF.
+#### Install Frontend Dependencies  
+```bash
+npm install
+```
 
-### 3️⃣ Ask Questions About the PDF  
-- **Type any natural language question** (e.g., `What is this document about?`).  
-- The system will **retrieve relevant content** and ask **LLaMA** for an answer.
+#### Start the Frontend Server  
+```bash
+npm run dev
+```
+
+---
+
+## 📌 How to Use  
+
+### 1️⃣ Upload a PDF  
+- Open the frontend UI in your browser (shown in the terminal after running `npm run dev`).
+- Upload a PDF file, and the system will **extract and index** the text.
+
+### 2️⃣ Ask Questions About the PDF  
+- Type any natural language question (e.g., `What is this document about?`).  
+- The system will **retrieve relevant content** and generate an answer using **LLaMA**.
 
 ---
 
 ## 🛠 Requirements  
 - **Python 3.10+**  
-- **Ollama Installed** (for LLaMA 3.2)  
-- **FAISS or ChromaDB** (for fast text retrieval)  
+- **Ollama Installed** (for LLaMA 3.2)
+- **Node.js & npm** (for frontend)  
+
