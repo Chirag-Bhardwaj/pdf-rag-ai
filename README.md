@@ -69,5 +69,4 @@ npm run dev
 ## 🛠 Requirements  
 - **Python 3.10+**  
 - **Ollama Installed** (for LLaMA 3.2)
-- **Node.js & npm** (for frontend)  
-
+- **Node.js & npm** (for frontend)
