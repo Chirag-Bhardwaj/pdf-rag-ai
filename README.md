@@ -14,7 +14,7 @@
 
 ### 1️⃣ Clone This Repository  
 ```bash
-git clone https://github.com/chirag-bhardwaj/pdf-rag.git
+git clone https://github.com/chirag-bhardwaj/pdf-rag-ai.git
 cd pdf-rag
 ```
 
@@ -63,6 +63,9 @@ npm run dev
 ### 2️⃣ Ask Questions About the PDF  
 - Type any natural language question (e.g., `What is this document about?`).  
 - The system will **retrieve relevant content** and generate an answer using **LLaMA**.
+
+![PDF Q&A System Screenshot](https://github.com/user-attachments/assets/06d02559-352a-4609-b3ef-2428fd32bf47)
+
 
 ---
 
