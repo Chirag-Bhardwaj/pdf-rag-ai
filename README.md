@@ -64,7 +64,7 @@ npm run dev
 - Type any natural language question (e.g., `What is this document about?`).  
 - The system will **retrieve relevant content** and generate an answer using **LLaMA**.
 
-![PDF Q&A System Screenshot](https://github.com/user-attachments/assets/06d02559-352a-4609-b3ef-2428fd32bf47)
+![PDF Q&A System](https://github.com/user-attachments/assets/06d02559-352a-4609-b3ef-2428fd32bf47)
 
 
 ---
